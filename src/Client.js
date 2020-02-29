@@ -1,7 +1,7 @@
 'use strict';
 
 const EventEmitter = require('events');
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-firefox');
 const moduleRaid = require('moduleraid/moduleraid');
 const jsQR = require('jsqr');
 
